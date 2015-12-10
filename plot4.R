@@ -43,7 +43,8 @@ with(workdata, {
       plot(x=Datetime,y=Sub_metering_3, ylim=range(0,38), type="l", 
                     col = "blue", axes = FALSE, xlab="", ylab="")
       legend("topright",lty="solid", col=c("black","red", "blue"), 
-       legend = c("Sub_metering_1", "Sub_metering_2","Sub_metering_3"),text.font = 1, cex=0.64)
+       legend = c("Sub_metering_1", "Sub_metering_2","Sub_metering_3"),text.font = 1, 
+       cex=0.64, box.lty = "blank")
       plot(x=Datetime,y=Global_reactive_power, type="l", 
            ylab = "Global_reactive_power", xlab = "datetime",
            cex.lab=0.6, cex.axis=0.6)
