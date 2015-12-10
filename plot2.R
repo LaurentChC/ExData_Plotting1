@@ -1,5 +1,9 @@
 ## EDA, CourseProject1, plot 2
 
+## Preliminaries: In order to get the axis ticks in English, one needs to set the 
+## appropriate locale
+Sys.setlocale("LC_TIME", "en_US.UTF-8")
+
 ## First step: loading the data and preparing the relevant dataframe (transforming 
 ## mssing data characterized by a "?" into "NA", filtering on the relevant dates, 
 ## adding a combined data/time column in POSIX format)
